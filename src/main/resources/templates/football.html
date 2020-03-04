@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	 <p th:text="'Country ID & Name : (' + ${standing.country_id} + ') - '+${standing.country_name}" />
+	 <p th:text="'League ID & Name : (' + ${standing.league_id} + ') - '+${standing.league_name}" />
+	 <p th:text="'Team ID & Name : (' + ${standing.team_id} + ') - '+${standing.team_name}" />
+	 <p th:text="'Overall League Position: ' + ${standing.overall_league_position} " />
+</body>
+</html>
